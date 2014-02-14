@@ -1,0 +1,26 @@
+<header class="row">
+    <div class="span7">
+        <h1>net.uk.sweet</h1>
+        <h2>579N 29W</h2>
+        <h2>4, 654</h2>
+    </div>
+    <div class="span5 avatar"></div>
+</header>
+<div class="row">
+    <section class="span5"></section>
+    <!-- delicious tag cloud -->
+    <section class="span6 offset1 delicious"
+        ng-include src="'views/delicious.html'" 
+        ng-controller="DeliciousCtrl">
+    </section>
+</div>
+<div class="row">
+    <!-- stack answers -->
+    <!-- stack answers -->
+    <section class="span6 stack"
+        ng-include src="'views/stack.html'"
+        ng-controller="StackCtrl">
+    </section>
+    <!-- delicious tag cloud -->
+    <section class="span5 offset1"></section>
+</div>

@@ -1,0 +1,82 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+/*h1, h2, h3 { text-align: center; }*/
+
+.row { margin-bottom: 20px; }
+
+section h1 { 
+    margin-bottom: 40px; 
+    border-bottom: 1px dotted #ccc; 
+}
+
+section h1 a { 
+    display: inline-block; 
+    width: 100%; 
+    color: #000;
+    text-decoration: none;
+}
+
+section h1 a:hover { text-decoration: none; }
+
+section h1 a span {
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+
+.container { /*border: 1px solid red;*/ }
+
+.avatar {
+    width: 380px;
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url(http://www.gravatar.com/avatar/62736d9452a4808070990e65b35cc5e9.jpg?s=800);
+}
+
+.delicious h1 span {
+    background: url(assets/delicious.svg);
+}
+
+.delicious { text-align: justify; }
+.delicious a { text-decoration: none; }
+
+.stack h1 span {
+    background: url(assets/stackoverflow.svg);
+}
+
+.stack ul {
+    margin: 0;
+}
+
+.stack li {
+    list-style: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
+}
+
+.stack li span {
+    color: #000;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.stack li .accepted {
+    color: #E1E818;
+    background-color: #75845C;
+}
+
+.stack li a {
+    font-size: 120%;
+    color: #555;
+}

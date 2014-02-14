@@ -1,0 +1,8 @@
+<div cloud="{size: {start: 20, end: 40, unit: 'px'}, color: {start: '#cde', end: '#E3A092'}}">
+  	<h1>
+  		<a href="https://delicious.com/net.uk.sweet">Tagging<span></span></a>
+  	</h1>
+      <!-- li ng-repeat="bookmark in bookmarks" -->
+    <a ng-repeat="bookmark in bookmarks" href="https://delicious.com/net.uk.sweet/{{bookmark.label}}" rel="{{bookmark.count}}">{{bookmark.label}} </a> 
+      <!-- /li -->
+</div>

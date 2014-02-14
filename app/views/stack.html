@@ -1,0 +1,12 @@
+<div>
+  	<h1>
+  		<a href="http://stackoverflow.com/users/1289388/net-uk-sweet">Helping<span></span></a>
+  	</h1>
+  	<ul>
+  		<li ng-repeat="answer in answers">
+  			<a href="{{answer.link}}">
+  				<span ng-class="{accepted: answer.is_accepted}">{{answer.score}}</span>{{answer.title}}
+  			</a>
+  		</li>
+  	</ul>
+</div>
