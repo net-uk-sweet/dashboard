@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('dashboardApp', [])
+var app = angular.module('dashboardApp', ['ngRoute', 'ngRoute'])
   // Configuration blocks - get executed during the provider registrations and 
   // configuration phase. Only providers and constants can be injected into 
   // configuration blocks. 

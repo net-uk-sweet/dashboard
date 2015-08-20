@@ -37,7 +37,8 @@
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
 
-    <script src="bower_components/angular/angular.js"></script>
+    <!-- <script src="bower_components/angular/angular.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>
@@ -48,11 +49,14 @@
 
         <!-- build:js scripts/plugins.js -->
         <!-- seems overkill to have to include all of jquery for one plug-in -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/jquery.tagcloud.js/jquery.tagcloud.js"></script>
-        <script src="bower_components/underscore/underscore.js"></script>
+        <!-- <script src="bower_components/jquery/jquery.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- <script src="bower_components/jquery.tagcloud.js/jquery.tagcloud.js"></script> -->
+        <script src="scripts/jquery.tagcloud.js"></script>
+        <!-- <script src="bower_components/underscore/underscore.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 
-        <script src="bower_components/bootstrap-sass/js/bootstrap-affix.js"></script>
+<!--         <script src="bower_components/bootstrap-sass/js/bootstrap-affix.js"></script>
         <script src="bower_components/bootstrap-sass/js/bootstrap-alert.js"></script>
         <script src="bower_components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
         <script src="bower_components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
@@ -64,11 +68,13 @@
         <script src="bower_components/bootstrap-sass/js/bootstrap-carousel.js"></script>
         <script src="bower_components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
         <script src="bower_components/bootstrap-sass/js/bootstrap-collapse.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script>
+        <script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script> -->
         <!-- endbuild -->
 
         <!-- build:js scripts/modules.js -->
-        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <!-- <script src="bower_components/angular-resource/angular-resource.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-route.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-resource.js"></script>
         <!-- endbuild -->
 </body>
 </html>

@@ -2,6 +2,8 @@
   "name": "dashboard",
   "version": "0.0.0",
   "dependencies": {
+    "connect-livereload": "^0.5.3",
+    "grunt": "^0.4.5",
     "grunt-karma": "~0.4.5"
   },
   "devDependencies": {
